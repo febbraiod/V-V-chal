@@ -17,6 +17,14 @@ h1 {
   letter-spacing: .8px;
 }
 
+p#subhead {
+  color: #fff;
+  font-size: .7em;
+  line-height: 1.5em;
+  letter-spacing: .85px;
+  padding-top: 10px;
+}
+
 .bold {
   font-weight: bold;
 }
