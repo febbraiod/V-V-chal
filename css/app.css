@@ -17,6 +17,11 @@ h1 {
   letter-spacing: .8px;
 }
 
+.logotype{
+  font-size: 1.7em;
+  color: #384f66;
+}
+
 p#subhead {
   color: #fff;
   font-size: .7em;
@@ -53,10 +58,37 @@ p#subhead {
   border-color: red;
 }
 
+.top_nav {
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  background-color: #fff;
+  text-align: center;
+}
+
 #menu {
   padding: 15px 15px;
   float: right;
 }
+
+/*for diagonal lines:*/
+
+.line_box_background {
+  width:  500px;
+  height:500px;
+  position:relative;
+}
+
+.line_box_background:after{
+  content:"";
+  position:absolute;
+  border-top:1px solid red;
+  width:500px;
+  transform: rotate(45deg);
+  transform-origin: 0% 0%;
+}
+
 
 #image_burn {
   background: rgba(0,0,0,0.5);
