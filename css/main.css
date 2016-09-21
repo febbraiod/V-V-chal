@@ -31,12 +31,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 2.2em;
   color: #384f66;
 }
 
 .logotype{
-  font-size: 1.7em;
+  font-size: 2.2em;
   color: #384f66;
 }
 
@@ -106,22 +106,22 @@ p#subhead {
 .line_box_background:after{
   content:"";
   position:absolute;
-  border-top:1.5px solid #384f66;
-  width:270px;
-  transform: rotate(67deg);
+  border-top: 1.5px solid #384f66;
+  width:320px;
+  transform: rotate(68deg);
   transform-origin: 0% 0%;
 }
 
 #line1 {
   position: absolute;
-  right: -30%;
-  top: 16%;
+  right: -22%;
+  top: 26.50%;
   z-index: 2;
 }
 
 #line2 {
   position: absolute;
-  left: 0%;
+  left: 2%;
   top: 53%;
   z-index: 2;
 }
