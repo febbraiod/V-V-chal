@@ -94,6 +94,14 @@ p#subhead {
   transform-origin: 0% 0%;
 }
 
+footer {
+  text-align: center;
+}
+
+footer.li footer.lh {
+  display:inline;
+}
+
 
 #image_burn {
   background: rgba(0,0,0,0.5);
