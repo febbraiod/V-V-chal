@@ -59,8 +59,7 @@ p#subhead {
   bottom: 0px;
   background-color: #fff;
   text-align: center;
-  border: solid 1px;
-  border-color: red;
+  box-shadow: 0px 1px 4px #BBBBBB;
 }
 
 .top_nav {
@@ -70,6 +69,7 @@ p#subhead {
   top: 0px;
   background-color: #fff;
   text-align: center;
+  box-shadow: 0px 1px 4px #BBBBBB;
 }
 
 #menu {
