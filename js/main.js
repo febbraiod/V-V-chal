@@ -22,4 +22,10 @@ function bindDownArrow(){
   $('#down_arrow').click(function(){
     $(window).scrollTop(stop_at);
   });
+
+  $('#down_arrow').hover(function(){
+    $("#down_arrow").addClass("bounce");
+  }, function(){
+    $("#down_arrow").removeClass("bounce");
+  });
 }

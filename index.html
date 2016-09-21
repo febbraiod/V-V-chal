@@ -11,40 +11,49 @@
 
 
   <div class='container-fluid'>
+
     <div class='row'>
       <div class='col-sm-12 no-padding'>
         <div id='gradient'></div>
-        <div style='position: absolute; width: 100%; height: 100%; background-color: black; opacity: .3;'></div>
-        <div style='position: absolute; width: 100%; height: 100%; background-color: black; opacity: .4; mix-blend-mode: overlay'></div>
-        <img style='width: 100%; height: auto;' src="images/image1.jpg">
+        <div id='color_darkener'></div>
+        <div id='color_burner'></div>
+        <img id='background' src="images/image1.jpg">
       </div>
+
       <div id ='textbox' class='col-sm-3 col-sm-offset-6'>
         <h1>FROM <span class='bold'>FACTORY</span></h1>
-        <h1>TO <strong>STORE</strong></h1>
-        <h1>TO <b>OUT THE DOOR.</b></h1>
-        <p id='subhead'>ABC Creations offers <b>international end-to-end apparel</b>
+        <h1>TO <span class='bold'>STORE</span></h1>
+        <h1>TO <span class='bold'>OUT THE DOOR.</span></h1>
+        <p id='subhead'>ABC Creations offers <span class='bold'>international end-to-end apparel</span>
           manufacturing solutions for forward-thinking clothing brands.</p>
-        <button type='button'>OUR PROCESS</button>
-        <button type='button'>OUR PRODUCTS</button>
+        <button type='button' class='btn outline'>OUR PROCESS</button>
+        <button type='button' class='btn outline'>OUR PRODUCTS</button>
       </div>
-      <div id ='down_arrow' class='col-sm-1 col-sm-offset-5' style='z-index: 2; position: fixed; left: 60px; bottom:80px;'>
+
+      <div id ='down_arrow' class='col-sm-1 col-sm-offset-5'>
         <img src='images/arrow.png'>
       </div>
     </div>
-      <div id='second_section' class='row'>
+
+    <div id='second_section' class='row'>
+    </div>
+
+    <div class='row'>
+      <div class='col-sm-4 col-sm-offset-4'>
+        <h2 id='second_header'>Second Section Header</h2>
       </div>
-      <div class='row'>
-        <div class='col-sm-4 col-sm-offset-4'>
-          <h2 style='margin-top: 105px; margin-left: 25px;' id='second_header'>Second Section Header</h2>
+
+      <div id='lady_picture_container' class='col-sm-9 col-sm-offset-2 center-block'>
+        <div id='line1' class='line_box_background'>
         </div>
-        <div style='max-width: 100%; float: none;' class='col-sm-9 col-sm-offset-2 center-block'>
-          <div id='line1' class='line_box_background'>
-          </div>
-          <img style='margin-top: 25px; margin-left: 20px; max-width: 100%; position: relative;' src="images/image2.jpg">
-          <div id='line2' class='line_box_background' style='z-index: 2;'>
-          </div>
+
+        <img id='lady_picture' src="images/image2.jpg">
+        
+        <div id='line2' class='line_box_background'>
         </div>
       </div>
+    </div>
+
   </div>
 
   <div id='nav_container' class='bottom_nav'>
