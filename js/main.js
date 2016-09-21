@@ -1,3 +1,8 @@
+$(function(){
+  bindDownArrow();
+});
+
+
 $(window).scroll(function() {    
     var scroll = $(window).scrollTop();
 
@@ -11,3 +16,10 @@ $(window).scroll(function() {
       $("#down_arrow").show();
     }
 });
+
+function bindDownArrow(){
+  var stop_at = $("#second_section").offset().top;
+  $('#down_arrow').click(function(){
+    $(window).scrollTop(stop_at);
+  });
+}
