@@ -98,19 +98,35 @@ p#subhead {
 /*for diagonal lines:*/
 
 .line_box_background {
-  width:  500px;
-  height:500px;
+  width:  320px;
+  height:320px;
   position:relative;
 }
 
 .line_box_background:after{
   content:"";
   position:absolute;
-  border-top:1px solid red;
-  width:500px;
-  transform: rotate(45deg);
+  border-top:1.5px solid #384f66;
+  width:270px;
+  transform: rotate(67deg);
   transform-origin: 0% 0%;
 }
+
+#line1 {
+  position: absolute;
+  right: -30%;
+  top: 16%;
+  z-index: 2;
+}
+
+#line2 {
+  position: absolute;
+  left: 0%;
+  top: 53%;
+  z-index: 2;
+}
+
+/*footer*/
 
 footer {
   text-align: center;
